@@ -1,0 +1,6 @@
+hello (1.0-0) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- Kirubakaran Shanmugam <kribakarans@gmail.com>  Fri, 11 Mar 2022 12:01:54 +0530

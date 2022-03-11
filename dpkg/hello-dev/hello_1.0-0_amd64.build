@@ -1,0 +1,106 @@
+ dpkg-buildpackage -us -uc -ui
+dpkg-buildpackage: info: source package hello
+dpkg-buildpackage: info: source version 1.0-0
+dpkg-buildpackage: info: source distribution UNRELEASED
+dpkg-buildpackage: info: source changed by Kirubakaran Shanmugam <kribakarans@gmail.com>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean  
+   dh_auto_clean
+	make -j4 distclean
+make[1]: Entering directory '/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello'
+rm -f src/hello
+make[1]: Leaving directory '/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello'
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building hello using existing ./hello_1.0.orig.tar.gz
+dpkg-source: info: building hello in hello_1.0-0.debian.tar.xz
+dpkg-source: info: building hello in hello_1.0-0.dsc
+ debian/rules build
+dh build  
+   dh_update_autotools_config
+   dh_autoreconf
+   dh_auto_configure
+   dh_auto_build
+	make -j4 "INSTALL=install --strip-program=true"
+make[1]: Entering directory '/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello'
+cc -Wdate-time -D_FORTIFY_SOURCE=2 -g -O2 -fdebug-prefix-map=/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello=. -fstack-protector-strong -Wformat -Werror=format-security  -o src/hello src/hello.c
+CC       = cc
+CPPFLAGS = -Wdate-time -D_FORTIFY_SOURCE=2
+CFLAGS   = -g -O2 -fdebug-prefix-map=/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello=. -fstack-protector-strong -Wformat -Werror=format-security
+LDCFLAGS = 
+LDFLAGS  = -Wl,-Bsymbolic-functions -Wl,-z,relro
+DESTDIR  = 
+PREFIX   = /usr/
+make[1]: Leaving directory '/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello'
+   dh_auto_test
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary  
+   dh_testroot
+   dh_prep
+   dh_auto_install
+	make -j4 install DESTDIR=/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello/debian/hello AM_UPDATE_INFO_DIR=no "INSTALL=install --strip-program=true"
+make[1]: Entering directory '/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello'
+install -D src/hello \
+               /home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello/debian/hello/usr//bin/hello
+install -m 644 -D man/hello.1 \
+               /home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello/debian/hello/usr//share/man/man1/hello.1
+install -m 644 -D share/hello.png \
+               /home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello/debian/hello/usr//share/pixmaps/hello.png
+install -m 644 -D share/hello.desktop \
+               /home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello/debian/hello/usr//share/applications/hello.desktop
+make[1]: Leaving directory '/home/shanmugk/Workspace/howto-build-linux-package/dpkg/hello-dev/hello'
+   dh_installdocs
+   dh_installchangelogs
+   dh_installman
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'hello' in '../hello_1.0-0_amd64.deb'.
+dpkg-deb: building package 'hello-dbgsym' in 'debian/.debhelper/scratch-space/build-hello/hello-dbgsym_1.0-0_amd64.deb'.
+	Renaming hello-dbgsym_1.0-0_amd64.deb to hello-dbgsym_1.0-0_amd64.ddeb
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../hello_1.0-0_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian hello_1.0-0_amd64.changes ...
+E: hello: changelog-is-dh_make-template
+E: hello source: debian-revision-should-not-be-zero 1.0-0
+E: hello: debian-revision-should-not-be-zero 1.0-0
+E: hello-dbgsym: debian-revision-should-not-be-zero 1.0-0
+E: hello changes: debian-revision-should-not-be-zero 1.0-0
+E: hello buildinfo: debian-revision-should-not-be-zero 1.0-0
+E: hello: section-is-dh_make-template
+W: hello source: bad-homepage <insert the upstream URL, if relevant>
+W: hello: bad-homepage <insert the upstream URL, if relevant>
+W: hello: copyright-has-url-from-dh_make-boilerplate
+W: hello: copyright-without-copyright-notice
+W: hello source: file-without-copyright-information debian/README.Debian
+W: hello source: file-without-copyright-information debian/changelog
+W: hello source: file-without-copyright-information debian/compat
+W: hello source: file-without-copyright-information debian/control
+W: hello source: file-without-copyright-information debian/copyright
+W: hello source: file-without-copyright-information debian/patches/series
+W: hello source: file-without-copyright-information debian/rules
+W: hello source: file-without-copyright-information debian/source/format
+W: hello source: file-without-copyright-information debian/watch
+W: hello source: missing-license-paragraph-in-dep5-copyright __no_copyright_nor_license__ (paragraph at line 7)
+W: hello: readme-debian-contains-debmake-template
+W: hello source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: hello: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: hello: wrong-bug-number-in-closes l3:#nnnn
+Finished running lintian.

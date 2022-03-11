@@ -1,0 +1,7 @@
+c8884b8bf61caea97095c4d56b83f89d  usr/bin/hello-gtk
+f9624d22f3819beb8a59ce4ea5f1a4a3  usr/share/applications/hellogtk.desktop
+a030e625d5eb360058f30a77d11aa0e2  usr/share/doc/hello-gtk/README.Debian
+b660e32e2ac030d555bf2c9048665635  usr/share/doc/hello-gtk/changelog.Debian.gz
+e758c65699f27e5d6afbb7092635e1af  usr/share/doc/hello-gtk/copyright
+41b17bfaef5a5dc90bdf5881c9434d5c  usr/share/man/man1/hello-gtk.1.gz
+a6fcee0f4054215c21ab1308ea874f97  usr/share/pixmaps/hellogtk.png

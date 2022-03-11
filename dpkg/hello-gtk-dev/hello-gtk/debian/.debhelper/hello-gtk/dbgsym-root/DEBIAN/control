@@ -1,0 +1,13 @@
+Package: hello-gtk-dbgsym
+Package-Type: ddeb
+Source: hello-gtk
+Version: 1.0-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 18
+Depends: hello-gtk (= 1.0-0)
+Section: debug
+Priority: optional
+Description: debug symbols for hello-gtk
+Build-Ids: 3447e812e30219f8d6b9fbfea477b478d6a649b9

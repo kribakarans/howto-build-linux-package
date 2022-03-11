@@ -1,0 +1,7 @@
+fa054b093bb9ced9069e12c3f802e3ad  usr/bin/hello
+2a727f42a489d7823bd278410c9100b6  usr/share/applications/hello.desktop
+ef24fe3116e99e92e15cdf3b6c783c99  usr/share/doc/hello/README.Debian
+4df1659a8ecd146a657174d82f117c85  usr/share/doc/hello/changelog.Debian.gz
+9382d915dc6bba4ee9f333e71f5464bd  usr/share/doc/hello/copyright
+41b17bfaef5a5dc90bdf5881c9434d5c  usr/share/man/man1/hello.1.gz
+a6fcee0f4054215c21ab1308ea874f97  usr/share/pixmaps/hello.png

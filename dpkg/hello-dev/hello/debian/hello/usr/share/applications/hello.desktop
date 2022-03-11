@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Hello
+Comment=Hello word program
+Exec=/usr/bin/hello
+Icon=/usr/share/pixmaps/hello.png
+Type=Application
+Categories=Application;
+StartupNotify=true

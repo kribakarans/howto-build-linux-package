@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 11 Mar 2022 12:01:54 +0530
+Source: hello
+Binary: hello
+Architecture: source amd64
+Version: 1.0-0
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Changed-By: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Description:
+ hello      - auto-generated package by debmake
+Changes:
+ hello (1.0-0) UNRELEASED; urgency=low
+ .
+   * Initial release. Closes: #nnnn
+     <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 1cf4ae19fb9f9e6a97df4eefad051d618f55afa3 797 hello_1.0-0.dsc
+ 6f7b955a0c86ef35867c0f8b67aaebb1721c5e4b 7045 hello_1.0.orig.tar.gz
+ bf519a9da547379db652ddeb92e681785945d8c2 1396 hello_1.0-0.debian.tar.xz
+ 30f7d274dd214a4bfcf9834b924c73aac91add1a 3920 hello-dbgsym_1.0-0_amd64.ddeb
+ 4698c89c57aabaeccc1445346abd621bbfa5607c 6313 hello_1.0-0_amd64.buildinfo
+ 501914ad9c58c8277e40ed4257a1c9152fd06942 9660 hello_1.0-0_amd64.deb
+Checksums-Sha256:
+ c83f2d59d24cf7871bc24ac6b306d8b9862801e8d2b627614ed6e01cb6d6c24c 797 hello_1.0-0.dsc
+ 8071bf18388e3fb776fe0bd89d3723797687c8d3756a3f2ed6dcce7d9da5c31a 7045 hello_1.0.orig.tar.gz
+ 999805319344407f1407a7c3e330463e8e6d1cb8b80542e4181b8660ec555fa7 1396 hello_1.0-0.debian.tar.xz
+ fdb3e891a7f26399524dd8299161779ab6066447572e668ac63041ab801d61e5 3920 hello-dbgsym_1.0-0_amd64.ddeb
+ 09bd6e936ac3c92d6a9848b120e799c384ef443e0b25fbabafecd058e0673b17 6313 hello_1.0-0_amd64.buildinfo
+ db413e277dd69097d96c6eb335c4f2e0bb08a8ed10af5bd9e75342cc3e7bcc9e 9660 hello_1.0-0_amd64.deb
+Files:
+ 3fb1d3ec35735d9eae5f6487741523cd 797 unknown optional hello_1.0-0.dsc
+ dea30b8118a7ec50eb3b44add7b423b1 7045 unknown optional hello_1.0.orig.tar.gz
+ fa9c96b8701caddc54a4c4befbf163c4 1396 unknown optional hello_1.0-0.debian.tar.xz
+ 9b5af67dc51ffd229e4f4b6aaaa5a981 3920 debug optional hello-dbgsym_1.0-0_amd64.ddeb
+ 7da2527bf58dce189af4064bbcbecc3f 6313 unknown optional hello_1.0-0_amd64.buildinfo
+ ba6466d249b83d5f9e275a2d5d2a33af 9660 unknown optional hello_1.0-0_amd64.deb

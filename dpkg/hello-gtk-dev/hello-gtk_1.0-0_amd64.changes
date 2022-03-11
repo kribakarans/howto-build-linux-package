@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 11 Mar 2022 11:51:07 +0530
+Source: hello-gtk
+Binary: hello-gtk
+Architecture: source amd64
+Version: 1.0-0
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Changed-By: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Description:
+ hello-gtk  - auto-generated package by debmake
+Changes:
+ hello-gtk (1.0-0) UNRELEASED; urgency=low
+ .
+   * Initial release. Closes: #nnnn
+     <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ e71484b895bf50c32e89c0aa128860a7881b00f2 836 hello-gtk_1.0-0.dsc
+ d0386b340bbb97ce4cd79504b8020d82cfaa1408 10961 hello-gtk_1.0.orig.tar.gz
+ ed691076f847787864de3a0e56583bd59050411f 1404 hello-gtk_1.0-0.debian.tar.xz
+ 58e273381ad9308ce81391a8631bbbadf924fb36 3708 hello-gtk-dbgsym_1.0-0_amd64.ddeb
+ ff9b7cd70eac28a32d79179092690db24b3a569b 6357 hello-gtk_1.0-0_amd64.buildinfo
+ b3a433f3c2e71dd2d253fbdb35c824814033dda1 9728 hello-gtk_1.0-0_amd64.deb
+Checksums-Sha256:
+ 01f2c01e6e1ba1f14d7f168223356860bcc79b2e9204397691e3dd0dc166f083 836 hello-gtk_1.0-0.dsc
+ 0e01f39e92802270b5562d2a7be92a5344c7551c34b71a3b6ac033057ab39189 10961 hello-gtk_1.0.orig.tar.gz
+ 05a23fce0c0c35e8f3be9e55600a820c566279253024bf3a7d01fe7771cabd54 1404 hello-gtk_1.0-0.debian.tar.xz
+ 6cf4250fd8a08b087aab180050e1a7f5951a5f3e5e7a2d89681d8e8827e0815d 3708 hello-gtk-dbgsym_1.0-0_amd64.ddeb
+ b62e12d833f0f3a29913fa53a517efd52fe664fb1a480af50e8a20dfe1f15f3b 6357 hello-gtk_1.0-0_amd64.buildinfo
+ eed1b7f10454e4456d56777ac539d43b69d6c32ebd095415d36bbb09dfd13f4c 9728 hello-gtk_1.0-0_amd64.deb
+Files:
+ dc496b3b9c2b30f04ec8aaa396584f8e 836 unknown optional hello-gtk_1.0-0.dsc
+ 06f25d70620174e1006c8434055c3073 10961 unknown optional hello-gtk_1.0.orig.tar.gz
+ bdc75147d300ce194e90e00f8a0e5b4b 1404 unknown optional hello-gtk_1.0-0.debian.tar.xz
+ 2259e7fb77c603010ffe1600a1c7bd01 3708 debug optional hello-gtk-dbgsym_1.0-0_amd64.ddeb
+ e682bafd927a88ab5551e8b96ebc8540 6357 unknown optional hello-gtk_1.0-0_amd64.buildinfo
+ b298ddd160ad0cc9e12129d8ae70ca63 9728 unknown optional hello-gtk_1.0-0_amd64.deb
