@@ -88,9 +88,6 @@ E: hello-gtk: debian-revision-should-not-be-zero 1.0-0
 E: hello-gtk-dbgsym: debian-revision-should-not-be-zero 1.0-0
 E: hello-gtk changes: debian-revision-should-not-be-zero 1.0-0
 E: hello-gtk buildinfo: debian-revision-should-not-be-zero 1.0-0
-E: hello-gtk: section-is-dh_make-template
-W: hello-gtk source: bad-homepage <insert the upstream URL, if relevant>
-W: hello-gtk: bad-homepage <insert the upstream URL, if relevant>
 W: hello-gtk: copyright-has-url-from-dh_make-boilerplate
 W: hello-gtk: copyright-without-copyright-notice
 W: hello-gtk source: file-without-copyright-information debian/README.Debian
@@ -104,7 +101,5 @@ W: hello-gtk source: file-without-copyright-information debian/source/format
 W: hello-gtk source: file-without-copyright-information debian/watch
 W: hello-gtk source: missing-license-paragraph-in-dep5-copyright __no_copyright_nor_license__ (paragraph at line 7)
 W: hello-gtk: readme-debian-contains-debmake-template
-W: hello-gtk source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
-W: hello-gtk: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
 W: hello-gtk: wrong-bug-number-in-closes l3:#nnnn
 Finished running lintian.

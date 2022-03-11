@@ -84,9 +84,7 @@ E: hello: debian-revision-should-not-be-zero 1.0-0
 E: hello-dbgsym: debian-revision-should-not-be-zero 1.0-0
 E: hello changes: debian-revision-should-not-be-zero 1.0-0
 E: hello buildinfo: debian-revision-should-not-be-zero 1.0-0
-E: hello: section-is-dh_make-template
-W: hello source: bad-homepage <insert the upstream URL, if relevant>
-W: hello: bad-homepage <insert the upstream URL, if relevant>
+E: hello: description-starts-with-package-name
 W: hello: copyright-has-url-from-dh_make-boilerplate
 W: hello: copyright-without-copyright-notice
 W: hello source: file-without-copyright-information debian/README.Debian
@@ -100,7 +98,5 @@ W: hello source: file-without-copyright-information debian/source/format
 W: hello source: file-without-copyright-information debian/watch
 W: hello source: missing-license-paragraph-in-dep5-copyright __no_copyright_nor_license__ (paragraph at line 7)
 W: hello: readme-debian-contains-debmake-template
-W: hello source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
-W: hello: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
 W: hello: wrong-bug-number-in-closes l3:#nnnn
 Finished running lintian.
