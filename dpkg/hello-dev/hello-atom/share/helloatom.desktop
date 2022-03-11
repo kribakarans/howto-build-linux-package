@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Hello
+Comment=Hello word program
+Exec=/usr/bin/hello-atom
+Icon=/usr/share/pixmaps/helloatom.png
+Terminal=true
+Type=Application
+StartupNotify=true
+Categories=Application

@@ -1,0 +1,14 @@
+Source: hello-atom-gtk
+Section: devel
+Priority: optional
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Build-Depends: debhelper (>=11~)
+Standards-Version: 4.1.4
+Homepage: https://github.com/kribakarans/howto-build-linux-package/tree/master/dpkg/hello-gtk-dev/hello-gtk
+
+Package: hello-atom-gtk
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hello world program
+ Zenity application to test GUI debian package

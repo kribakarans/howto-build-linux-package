@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Hello
+Comment=Hello word program
+Exec=/usr/bin/hello-atom-gtk
+Icon=/usr/share/pixmaps/helloatomgtk.png
+Type=Application
+StartupNotify=true
+Categories=Application

@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 11 Mar 2022 23:53:27 +0530
+Source: hello-atom-gtk
+Binary: hello-atom-gtk
+Architecture: source amd64
+Version: 1.0-0
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Changed-By: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Description:
+ hello-atom-gtk - Hello world program
+Changes:
+ hello-atom-gtk (1.0-0) UNRELEASED; urgency=low
+ .
+   * Initial release. Closes: #nnnn
+     <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 5275db424579acada1bc047892c6a48f085fd38b 935 hello-atom-gtk_1.0-0.dsc
+ 10136d2bc787fe0b3f36e21948e442960193b046 7122 hello-atom-gtk_1.0.orig.tar.gz
+ c1e8c18bdd3f3d9796958f31195ba9cf3192aa7b 1428 hello-atom-gtk_1.0-0.debian.tar.xz
+ eef1f8dea0ae875fb4894bd34ec60d3730bc9b4b 3720 hello-atom-gtk-dbgsym_1.0-0_amd64.ddeb
+ 41fe48c7044fac912dca10e179b849969053d548 6412 hello-atom-gtk_1.0-0_amd64.buildinfo
+ ec8218f24ecd6339f55cfaeecfbe14c4e0491bcc 9760 hello-atom-gtk_1.0-0_amd64.deb
+Checksums-Sha256:
+ 135bf46ff9523433767a078dd7618f6a8ba0e3246643d40ed173ca6dd04e8821 935 hello-atom-gtk_1.0-0.dsc
+ 3c69fcd877e055cbd6f3e95d83dc9b70fc01ab598ed0b4461cfd46306a5ebc41 7122 hello-atom-gtk_1.0.orig.tar.gz
+ 1e0173e28136f034ba3600fe0ec8fe908c5d0404950a1b465c5c8a215af41658 1428 hello-atom-gtk_1.0-0.debian.tar.xz
+ 32316848c93a76ca290efe1635c62809d3c3bad10ae93a9c2836104239065fe1 3720 hello-atom-gtk-dbgsym_1.0-0_amd64.ddeb
+ 37e096c0550b8786bbed376b0e25648bacdce5949095d051e138504b8304ddc3 6412 hello-atom-gtk_1.0-0_amd64.buildinfo
+ 085d1f27a6940ce2046c94558f820b16eebd880a3d892e9893f67b7a86daa29a 9760 hello-atom-gtk_1.0-0_amd64.deb
+Files:
+ 7849c24f46e95c6d18eef6262858f41a 935 devel optional hello-atom-gtk_1.0-0.dsc
+ 33068f848f0cc17ea55e3550aed0e7a8 7122 devel optional hello-atom-gtk_1.0.orig.tar.gz
+ 2cdc3114a2c62bcbfd0a5432137d197c 1428 devel optional hello-atom-gtk_1.0-0.debian.tar.xz
+ c252f881a9884e363c6114c56b9f5601 3720 debug optional hello-atom-gtk-dbgsym_1.0-0_amd64.ddeb
+ a7652f76388978177ab3951281c29739 6412 devel optional hello-atom-gtk_1.0-0_amd64.buildinfo
+ 6bf3e583ffd5ee7516acfc17ff2418e1 9760 devel optional hello-atom-gtk_1.0-0_amd64.deb

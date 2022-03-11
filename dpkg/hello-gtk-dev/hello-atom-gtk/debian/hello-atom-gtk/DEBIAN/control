@@ -1,0 +1,12 @@
+Package: hello-atom-gtk
+Version: 1.0-0
+Architecture: amd64
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 37
+Depends: libc6 (>= 2.2.5)
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/kribakarans/howto-build-linux-package/tree/master/dpkg/hello-gtk-dev/hello-gtk
+Description: Hello world program
+ Zenity application to test GUI debian package

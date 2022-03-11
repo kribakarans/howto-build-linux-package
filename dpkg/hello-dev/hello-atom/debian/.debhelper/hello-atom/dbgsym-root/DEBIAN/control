@@ -1,0 +1,13 @@
+Package: hello-atom-dbgsym
+Package-Type: ddeb
+Source: hello-atom
+Version: 1.0-0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Installed-Size: 18
+Depends: hello-atom (= 1.0-0)
+Section: debug
+Priority: optional
+Description: debug symbols for hello-atom
+Build-Ids: 9a7e5bc7f23d9f51045e602a075e87862c4c6197

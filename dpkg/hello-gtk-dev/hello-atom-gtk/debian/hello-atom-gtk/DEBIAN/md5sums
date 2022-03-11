@@ -1,0 +1,7 @@
+c8884b8bf61caea97095c4d56b83f89d  usr/bin/hello-atom-gtk
+0cc0497a70714bcadcc6818c3b7cb8b0  usr/share/applications/helloatomgtk.desktop
+7783720ec7b2c5075999f5677408bb8f  usr/share/doc/hello-atom-gtk/README.Debian
+6d6e437ea14a00f1673deeb7f799ebf7  usr/share/doc/hello-atom-gtk/changelog.Debian.gz
+20b0cd9cc9305231733521d756678bb3  usr/share/doc/hello-atom-gtk/copyright
+4f339704f965c4f0605aac0e91f713ad  usr/share/man/man1/hello-atom-gtk.1.gz
+a6fcee0f4054215c21ab1308ea874f97  usr/share/pixmaps/helloatomgtk.png

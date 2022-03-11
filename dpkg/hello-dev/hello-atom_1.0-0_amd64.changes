@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 11 Mar 2022 23:48:23 +0530
+Source: hello-atom
+Binary: hello-atom
+Architecture: source amd64
+Version: 1.0-0
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Changed-By: Kirubakaran Shanmugam <kribakarans@gmail.com>
+Description:
+ hello-atom - Hello world program
+Changes:
+ hello-atom (1.0-0) UNRELEASED; urgency=low
+ .
+   * Initial release. Closes: #nnnn
+     <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 1d44cee67147227eaead73e585db1a658bf34f54 891 hello-atom_1.0-0.dsc
+ c60cc71c83482c9ed2728732d9b4a3294b581306 7081 hello-atom_1.0.orig.tar.gz
+ 6cb0cd5511166d9779a65e7f2e0d60bbe0fa7d58 1420 hello-atom_1.0-0.debian.tar.xz
+ 8bc079222ed0f307db8756e289a3200997b97091 3940 hello-atom-dbgsym_1.0-0_amd64.ddeb
+ 4a9037919efdace6b715f4b8ee80e6bf089d4d28 6368 hello-atom_1.0-0_amd64.buildinfo
+ aa9cf31565b6cb7a5abc49d433d04c8e5e425b31 9700 hello-atom_1.0-0_amd64.deb
+Checksums-Sha256:
+ 6c51554a543dda363bca16e3f1522f02d92ca57b3808a06fb1f23a829cd85b36 891 hello-atom_1.0-0.dsc
+ 381494ab91d1a07f0cf7e8f496452eacc28462873a3dd3b02bcbe4fc3dd00e28 7081 hello-atom_1.0.orig.tar.gz
+ d4356f115da7a354da64c3f181dfbbdef8f3c9d65bc98fcb484c2c1a89ee3e4b 1420 hello-atom_1.0-0.debian.tar.xz
+ 9015d137368aaaa59e7a9c97acbcbda0793cb08f24a4a1a8c34415d4e12145a8 3940 hello-atom-dbgsym_1.0-0_amd64.ddeb
+ ed1cd6674ef02b64e8afa8241417a4cf93be9968106a733e76d26dfddec49f99 6368 hello-atom_1.0-0_amd64.buildinfo
+ bca12c9efc3ccacfa073823e198ee6d8732ec44fa4fd76ef90f6132987a69cab 9700 hello-atom_1.0-0_amd64.deb
+Files:
+ 3402afdd524296dfca2aaf9326699f82 891 devel optional hello-atom_1.0-0.dsc
+ 0763b72e19b4ee549d6f2bed6d165320 7081 devel optional hello-atom_1.0.orig.tar.gz
+ 1838ef25fe657d06ad622248b481fe75 1420 devel optional hello-atom_1.0-0.debian.tar.xz
+ a73ab59d02e92b65c932e08c91edb959 3940 debug optional hello-atom-dbgsym_1.0-0_amd64.ddeb
+ f65120147bee1cf8baa5f675f421b528 6368 devel optional hello-atom_1.0-0_amd64.buildinfo
+ a41d1cb83d6222c1e36d031b1b11c9c7 9700 devel optional hello-atom_1.0-0_amd64.deb

@@ -1,0 +1,7 @@
+260c33ca209ffbaa1d4c6b6e8756d8e0  usr/bin/hello-atom
+e380d1d56883f201ad79407b86612a2a  usr/share/applications/helloatom.desktop
+ecf9f3c0e02bc1fa5ba4398b4ee685b0  usr/share/doc/hello-atom/README.Debian
+2f13987ac821c7c866723d91e7414938  usr/share/doc/hello-atom/changelog.Debian.gz
+4bdfa6a81e51c9480b72b82d2704f7e3  usr/share/doc/hello-atom/copyright
+b38230f844a576c3676c1607d7b053bb  usr/share/man/man1/hello-atom.1.gz
+a6fcee0f4054215c21ab1308ea874f97  usr/share/pixmaps/helloatom.png
